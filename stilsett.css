@@ -94,7 +94,7 @@ footer {
 
 footer {
     background-color: #a6bbc7;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
 
 p, .smallText {
@@ -114,7 +114,6 @@ h2 {
     font-family: 'Open Sans', serif;
     font-weight: 100;
     font-size: 60px;
-    font-weight: bolder;
     color: black;
     text-align: center;
     margin: 20px 0 20px 0;
