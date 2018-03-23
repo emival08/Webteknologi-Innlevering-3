@@ -11,8 +11,8 @@ html, body {
 section {
     flex: 1 1 auto; 
     overflow: auto; 
-    background-color: #d9e5f4;
-    height: 100vh; 
+    background-color: rgb(223, 245, 255);
+    height: 100vh;
 }
 
 .content {
@@ -24,8 +24,9 @@ section {
 nav {
     flex: 0 0 auto; 
     width: calc(200px + 8vw);
+    min-width: 200px;
     height: 100vh; 
-    background: #8ebfcb;
+    background: #c5ddd8;
 }
 
 nav li {
@@ -41,9 +42,9 @@ nav ul {
 nav h2 {
     font-family: 'Open Sans', serif;
     font-weight: 100; 
-    font-size: 40px; 
-    color: black; 
-    margin: 20px 0 20px 0; 
+    font-size: calc(23px + 1vw); 
+    color: #497b70; 
+    margin: 5px 0 20px 0; 
     text-align: center; 
 }
 
@@ -57,11 +58,11 @@ a {
 }
 
 a:hover {
-    color: #bc8229;
+    color: #b26247; 
 }
 
 nav a {
-    color: #2f2e2e; 
+    color: #577354; 
     font-size: 15px; 
     font-family: 'Roboto condensed', sans-serif;
     letter-spacing: 2px; 
@@ -75,6 +76,7 @@ nav a {
 .box2, 
 footer {
     padding: 0 15vw 0 15vw; 
+    min-width: 400px;
 }
 
 .box0 {
@@ -84,12 +86,14 @@ footer {
 
 .box1 {
     flex: 1 0 auto; 
-    background-color: #d9e5f4;
+    background-color: rgb(223, 245, 255);
+    padding-bottom: 20px; 
 }
 
 .box2 {
     flex: 1 0 auto; 
-    background-color: #dff3fc;
+    background-color: rgb(227, 255, 245);
+    padding-bottom: 20px; 
 }
 
 footer {
@@ -145,12 +149,36 @@ footer p {
 }
 
 .bilde {
-    float: left;
-    height: 260px;
-    width: 500px;
+    width: 100%;
+    max-width: 700px; 
     padding: 0; 
-    margin-right: 10px;
     margin-bottom: 10px;
     box-shadow: 0 1px 2px 0;
 }
 
+.logo {
+    margin-top: 10px; 
+    margin-left: 22.5%; 
+    margin-right: 22.5%; 
+    width: 55%; 
+    margin-bottom: 0; 
+}
+
+.forsidebilde {
+    width: 100%; 
+    min-width: 600px; 
+}
+
+#forside {
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+
+#forside p {
+    padding-bottom: 0; 
+    padding-top: 10px; 
+}
+
+#forside h3 {
+    margin-top: 50px; 
+}
